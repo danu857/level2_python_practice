@@ -2,7 +2,7 @@ account = None
 
 while True:
 
-    print("\n===== BANKING APPLICATION =====")
+    print("\n BANKING APPLICATION")
     print("1. Create Account")
     print("2. Deposit")
     print("3. Withdraw")
@@ -114,7 +114,7 @@ while True:
                 print("No transactions available.")
 
             else:
-                print("\n===== TRANSACTION HISTORY =====")
+                print("\n TRANSACTION HISTORY")
 
                 for transaction in account["history"]:
                     print(transaction)
