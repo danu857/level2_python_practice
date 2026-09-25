@@ -1,0 +1,112 @@
+[
+    {
+        "bill_id": "B001",
+        "patient_id": "P001",
+        "room_charges": 12000,
+        "doctor_charges": 5000,
+        "medicine_charges": 3500,
+        "lab_charges": 2000,
+        "other_charges": 1000,
+        "total_bill": 23500,
+        "payment_status": "Paid"
+    },
+    {
+        "bill_id": "B002",
+        "patient_id": "P002",
+        "room_charges": 8000,
+        "doctor_charges": 4000,
+        "medicine_charges": 2500,
+        "lab_charges": 1500,
+        "other_charges": 500,
+        "total_bill": 16500,
+        "payment_status": "Paid"
+    },
+    {
+        "bill_id": "B003",
+        "patient_id": "P003",
+        "room_charges": 15000,
+        "doctor_charges": 6000,
+        "medicine_charges": 4500,
+        "lab_charges": 3000,
+        "other_charges": 1500,
+        "total_bill": 30000,
+        "payment_status": "Pending"
+    },
+    {
+        "bill_id": "B004",
+        "patient_id": "P004",
+        "room_charges": 10000,
+        "doctor_charges": 5000,
+        "medicine_charges": 3200,
+        "lab_charges": 1800,
+        "other_charges": 750,
+        "total_bill": 20750,
+        "payment_status": "Paid"
+    },
+    {
+        "bill_id": "B005",
+        "patient_id": "P005",
+        "room_charges": 18000,
+        "doctor_charges": 7000,
+        "medicine_charges": 5500,
+        "lab_charges": 3500,
+        "other_charges": 2000,
+        "total_bill": 36000,
+        "payment_status": "Pending"
+    },
+    {
+        "bill_id": "B006",
+        "patient_id": "P006",
+        "room_charges": 7000,
+        "doctor_charges": 3500,
+        "medicine_charges": 2200,
+        "lab_charges": 1200,
+        "other_charges": 500,
+        "total_bill": 14400,
+        "payment_status": "Paid"
+    },
+    {
+        "bill_id": "B007",
+        "patient_id": "P007",
+        "room_charges": 14000,
+        "doctor_charges": 6000,
+        "medicine_charges": 4000,
+        "lab_charges": 2500,
+        "other_charges": 1000,
+        "total_bill": 27500,
+        "payment_status": "Paid"
+    },
+    {
+        "bill_id": "B008",
+        "patient_id": "P008",
+        "room_charges": 20000,
+        "doctor_charges": 7500,
+        "medicine_charges": 6000,
+        "lab_charges": 4000,
+        "other_charges": 2500,
+        "total_bill": 40000,
+        "payment_status": "Pending"
+    },
+    {
+        "bill_id": "B009",
+        "patient_id": "P009",
+        "room_charges": 11000,
+        "doctor_charges": 5500,
+        "medicine_charges": 3000,
+        "lab_charges": 2000,
+        "other_charges": 750,
+        "total_bill": 22250,
+        "payment_status": "Paid"
+    },
+    {
+        "bill_id": "B010",
+        "patient_id": "P010",
+        "room_charges": 9000,
+        "doctor_charges": 4500,
+        "medicine_charges": 2800,
+        "lab_charges": 1600,
+        "other_charges": 600,
+        "total_bill": 18500,
+        "payment_status": "Paid"
+    }
+]

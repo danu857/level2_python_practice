@@ -1,0 +1,112 @@
+[
+    {
+        "patient_id": "P001",
+        "name": "Arun Kumar",
+        "age": 35,
+        "gender": "Male",
+        "phone": "9876543210",
+        "address": "Coimbatore",
+        "blood_group": "O+",
+        "admission_date": "2026-09-01",
+        "doctor": "Dr. Ravi"
+    },
+    {
+        "patient_id": "P002",
+        "name": "Priya Sharma",
+        "age": 28,
+        "gender": "Female",
+        "phone": "9876543211",
+        "address": "Chennai",
+        "blood_group": "A+",
+        "admission_date": "2026-09-03",
+        "doctor": "Dr. Meena"
+    },
+    {
+        "patient_id": "P003",
+        "name": "Karthik Raj",
+        "age": 42,
+        "gender": "Male",
+        "phone": "9876543212",
+        "address": "Erode",
+        "blood_group": "B+",
+        "admission_date": "2026-09-05",
+        "doctor": "Dr. Suresh"
+    },
+    {
+        "patient_id": "P004",
+        "name": "Divya Nair",
+        "age": 31,
+        "gender": "Female",
+        "phone": "9876543213",
+        "address": "Palakkad",
+        "blood_group": "AB+",
+        "admission_date": "2026-09-07",
+        "doctor": "Dr. Anitha"
+    },
+    {
+        "patient_id": "P005",
+        "name": "Vignesh Kumar",
+        "age": 56,
+        "gender": "Male",
+        "phone": "9876543214",
+        "address": "Salem",
+        "blood_group": "O-",
+        "admission_date": "2026-09-09",
+        "doctor": "Dr. Ravi"
+    },
+    {
+        "patient_id": "P006",
+        "name": "Sneha Krishnan",
+        "age": 24,
+        "gender": "Female",
+        "phone": "9876543215",
+        "address": "Tiruppur",
+        "blood_group": "A-",
+        "admission_date": "2026-09-10",
+        "doctor": "Dr. Meena"
+    },
+    {
+        "patient_id": "P007",
+        "name": "Rahul Verma",
+        "age": 47,
+        "gender": "Male",
+        "phone": "9876543216",
+        "address": "Bangalore",
+        "blood_group": "B-",
+        "admission_date": "2026-09-12",
+        "doctor": "Dr. Suresh"
+    },
+    {
+        "patient_id": "P008",
+        "name": "Lakshmi Devi",
+        "age": 63,
+        "gender": "Female",
+        "phone": "9876543217",
+        "address": "Madurai",
+        "blood_group": "O+",
+        "admission_date": "2026-09-14",
+        "doctor": "Dr. Anitha"
+    },
+    {
+        "patient_id": "P009",
+        "name": "Mohammed Faisal",
+        "age": 39,
+        "gender": "Male",
+        "phone": "9876543218",
+        "address": "Trichy",
+        "blood_group": "AB-",
+        "admission_date": "2026-09-16",
+        "doctor": "Dr. Ravi"
+    },
+    {
+        "patient_id": "P010",
+        "name": "Nandhini S",
+        "age": 29,
+        "gender": "Female",
+        "phone": "9876543219",
+        "address": "Coimbatore",
+        "blood_group": "A+",
+        "admission_date": "2026-09-18",
+        "doctor": "Dr. Meena"
+    }
+]
