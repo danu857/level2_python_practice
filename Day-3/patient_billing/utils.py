@@ -22,9 +22,7 @@ def display_all_patients(patients):
         return
 
     print("\n")
-    print("-" * 30)
     print("ALL PATIENTS")
-    print("-" * 30)
 
     print(
         f"{'ID':<8}"
@@ -36,8 +34,6 @@ def display_all_patients(patients):
         f"{'Admission Date':<15}"
     )
 
-    print("-" * 50)
-
     for patient in patients:
         print(
             f"{patient.get('patient_id', '-'):<8}"
@@ -48,8 +44,6 @@ def display_all_patients(patients):
             f"{patient.get('doctor', '-'):<20}"
             f"{patient.get('admission_date', '-'):<15}"
         )
-
-    print("-" * 50)
 
 def search_patient(patients):
     if not patients:
@@ -75,7 +69,6 @@ def search_patient(patients):
         return
 
     print("\nMatching Patients")
-    print("-" * 30)
 
     for patient in found:
         print(f"Patient ID : {patient.get('patient_id', '-')}")
@@ -84,7 +77,6 @@ def search_patient(patients):
         print(f"Gender: {patient.get('gender', '-')}")
         print(f"Blood Group: {patient.get('blood_group', '-')}")
         print(f"Doctor: {patient.get('doctor', '-')}")
-        print("-" * 30)
 
 def view_patient_bill(patients,bills,patient_id,currency="INR"):
     patient = find_patient(patients, patient_id)
@@ -99,13 +91,10 @@ def view_patient_bill(patients,bills,patient_id,currency="INR"):
         return
 
     print("\n")
-    print("-" * 20)
     print("PATIENT BILL")
-    print("-" * 20)
     print(f"Patient ID : {patient.get('patient_id', '-')}")
     print(f"Name: {patient.get('name', '-')}")
     print(f"Doctor: {patient.get('doctor', '-')}")
-    print("-" * 20)
 
     print(f"Bill ID: "
         f"{bill.get('bill_id', '-')}")
@@ -125,15 +114,11 @@ def view_patient_bill(patients,bills,patient_id,currency="INR"):
     print(f"Other Charges: "
         f"{format_currency(bill.get('other_charges', 0), currency)}")
 
-    print("-" * 20)
-
     print(f"Total Bill : "
         f"{format_currency(bill.get('total_bill', 0), currency)}")
 
     print(f"Payment Status : "
         f"{bill.get('payment_status', '-')}")
-
-    print("=" * 55)
 
 def generate_patient_report(
     patients,
@@ -150,13 +135,10 @@ def generate_patient_report(
     bill = find_bill(bills, patient_id)
 
     print("\n")
-    print("=" * 30)
-    print(f"{hospital_name.upper():^60}")
-    print(f"{'PATIENT REPORT':^60}")
-    print("=" * 30)
+    print(f"{hospital_name.upper()}")
+    print(f"{'PATIENT REPORT'}")
 
     print("\nPATIENT DETAILS")
-    print("-" * 30)
 
     print(f"Patient ID : "
         f"{patient.get('patient_id', '-')}")
@@ -186,7 +168,6 @@ def generate_patient_report(
         f"{patient.get('doctor', '-')}")
 
     print("\nBILL DETAILS")
-    print("-" * 30)
 
     if bill is None:
         print("No billing information available.")
@@ -210,15 +191,11 @@ def generate_patient_report(
         print(f"Other Charges : "
             f"{format_currency(bill.get('other_charges', 0), currency)}")
 
-        print("-" * 30)
-
         print(f"Total Bill       : "
             f"{format_currency(bill.get('total_bill', 0), currency)}")
 
         print(f"Payment Status   : "
             f"{bill.get('payment_status', '-')}")
-
-    print("=" * 30)
 
 def display_all_bills(bills, currency="INR"):
     if not bills:
@@ -226,9 +203,7 @@ def display_all_bills(bills, currency="INR"):
         return
 
     print("\n")
-    print("=" * 40)
     print("ALL BILLS")
-    print("=" * 40)
 
     print(
         f"{'Bill ID':<10}"
@@ -236,8 +211,6 @@ def display_all_bills(bills, currency="INR"):
         f"{'Total Bill':<18}"
         f"{'Status':<15}"
     )
-
-    print("-" * 40)
 
     for bill in bills:
         total = bill.get("total_bill", 0)
@@ -248,8 +221,6 @@ def display_all_bills(bills, currency="INR"):
             f"{format_currency(total, currency):<18}"
             f"{bill.get('payment_status', '-'):<15}"
         )
-
-    print("=" * 40)
 
 def display_bills_by_status(
     bills,
@@ -267,9 +238,7 @@ def display_bills_by_status(
         return
 
     print("\n")
-    print("=" * 30)
     print(f"{status.upper()} BILLS")
-    print("=" * 30)
 
     total = 0
     for bill in matching_bills:
@@ -282,13 +251,11 @@ def display_bills_by_status(
         print(f"Amount     : "
             f"{format_currency(amount, currency)}")
         
-        print("-" * 30)
     print(f"Number of Bills : {len(matching_bills)}")
 
     print(f"Total Amount    : "
         f"{format_currency(total, currency)}")
 
-    print("=" * 30)
 
 def calculate_total_revenue(
     bills,
@@ -310,9 +277,7 @@ def calculate_total_revenue(
             pending_total += amount
 
     print("\n")
-    print("=" * 20)
     print("BILL SUMMARY")
-    print("=" * 20)
 
     print(f"Paid Amount    : "
         f"{format_currency(paid_total, currency)}")
@@ -320,12 +285,8 @@ def calculate_total_revenue(
     print(f"Pending Amount : "
         f"{format_currency(pending_total, currency)}")
 
-    print("-" * 20)
-
     print(f"Total Billing  : "
         f"{format_currency(overall_total, currency)}")
-
-    print("=" * 20)
 
 def hospital_summary(
     patients,
@@ -354,14 +315,11 @@ def hospital_summary(
             pending_amount += amount
 
     print("\n")
-    print("=" * 30)
     print("HOSPITAL SUMMARY")
-    print("=" * 30)
     print(f"Total Patients : {total_patients}")
     print(f"Total Bills : {total_bills}")
     print(f"Paid Bills : {paid_bills}")
     print(f"Pending Bills : {pending_bills}")
-    print("-" * 30)
 
     print(f"Paid Amount: "
         f"{format_currency(paid_amount, currency)}")
@@ -371,5 +329,3 @@ def hospital_summary(
 
     print(f"Total Billing: "
         f"{format_currency(paid_amount + pending_amount, currency)}")
-
-    print("=" * 30)

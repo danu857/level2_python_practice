@@ -70,18 +70,18 @@ def get_menu_choice():
 
 def display_menu():
     print("\n")
-    print("=" * 20)
     print(f"{HOSPITAL_NAME.upper()}")
     print("PATIENT BILLING SYSTEM")
-    print("=" * 20)
 
     print("1. Display All Patients")
     print("2. Search Patient")
     print("3. View Patient Bill")
     print("4. Generate Patient Report")
     print("5. Display All Bills")
-    print("6. Add New Bill")
-    print("7. Display Hospital Summary")
+    print("6. Display Paid Bills")
+    print("7. Display Pending Bills")
+    print("8. Calculate Total Revenue")
+    print("9. Display Hospital Summary")
     print("0. Exit")
 
     print("=" * 20)
