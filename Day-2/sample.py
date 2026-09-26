@@ -42,9 +42,7 @@ accounts: dict[str, dict] = {
     }
 
 def login(accounts: dict[str, dict]) -> str | None:
-    """Authenticate user."""
-
-    print("\n===== LOGIN =====")
+    print("\nLOGIN")
 
     account_number = input("Enter account number: ").strip()
     password = input("Enter password: ").strip()
@@ -101,7 +99,7 @@ def withdraw(accounts: dict[str, dict], account_number: str) -> None:
 
 def check_balance(accounts: dict[str, dict], account_number: str) -> None:
 
-    print("\n===== ACCOUNT BALANCE =====")
+    print("\nACCOUNT BALANCE")
     print(f"Name    : {accounts[account_number]['name']}")
     print(f"Balance : ₹{accounts[account_number]['balance']:.2f}")
 
@@ -111,7 +109,7 @@ def transaction_history(
     account_number: str
 ) -> None:
 
-    print("\n===== TRANSACTION HISTORY =====")
+    print("\nTRANSACTION HISTORY")
 
     transactions = accounts[account_number]["transactions"]
 
@@ -128,7 +126,7 @@ def account_summary(
     account_number: str
 ) -> None:
 
-    print("\n===== ACCOUNT SUMMARY =====")
+    print("\n ACCOUNT SUMMARY ")
 
     account = accounts[account_number]
 
@@ -140,7 +138,7 @@ def account_summary(
 
 def display_all_accounts(accounts: dict[str, dict]) -> None:
 
-    print("\n===== ALL ACCOUNTS =====")
+    print("\n ALL ACCOUNTS")
 
     for account_number in sorted(accounts):
 
@@ -171,9 +169,7 @@ def main() -> None:
 
     while True:
 
-        print("\n================================")
         print("      BANKING APPLICATION")
-        print("================================")
         print("1. Login")
         print("2. Deposit")
         print("3. Withdraw")

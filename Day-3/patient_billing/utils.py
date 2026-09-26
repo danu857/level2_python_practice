@@ -22,9 +22,9 @@ def display_all_patients(patients):
         return
 
     print("\n")
-    print("=" * 30)
+    print("-" * 30)
     print("ALL PATIENTS")
-    print("=" * 30)
+    print("-" * 30)
 
     print(
         f"{'ID':<8}"
@@ -49,7 +49,7 @@ def display_all_patients(patients):
             f"{patient.get('admission_date', '-'):<15}"
         )
 
-    print("=" * 50)
+    print("-" * 50)
 
 def search_patient(patients):
     if not patients:
@@ -99,9 +99,9 @@ def view_patient_bill(patients,bills,patient_id,currency="INR"):
         return
 
     print("\n")
-    print("=" * 20)
+    print("-" * 20)
     print("PATIENT BILL")
-    print("=" * 20)
+    print("-" * 20)
     print(f"Patient ID : {patient.get('patient_id', '-')}")
     print(f"Name: {patient.get('name', '-')}")
     print(f"Doctor: {patient.get('doctor', '-')}")

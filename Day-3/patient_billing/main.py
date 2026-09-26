@@ -9,7 +9,7 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent
 PATIENTS_FILE = BASE_DIR / os.getenv("PATIENTS_FILE", "data/patients.json")
 BILLS_FILE = BASE_DIR / os.getenv("BILLS_FILE", "data/total_bills.json")
-HOSPITAL_NAME = os.getenv("HOSPITAL_NAME", "City Care Hospital")
+HOSPITAL_NAME = os.getenv("HOSPITAL_NAME", "Hospital")
 CURRENCY = os.getenv("CURRENCY", "INR")
 
 def load_json_file(file_path):
@@ -80,10 +80,8 @@ def display_menu():
     print("3. View Patient Bill")
     print("4. Generate Patient Report")
     print("5. Display All Bills")
-    print("6. Display Paid Bills")
-    print("7. Display Pending Bills")
-    print("8. Calculate Total Revenue")
-    print("9. Display Hospital Summary")
+    print("6. Add New Bill")
+    print("7. Display Hospital Summary")
     print("0. Exit")
 
     print("=" * 20)

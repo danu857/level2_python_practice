@@ -104,7 +104,7 @@ def check_balance(accounts: dict[str, dict], account_number: str) -> None:
 
     print("\n BALANCE")
     print(f"Account Holder : {accounts[account_number]['name']}")
-    print(f"Balance        : ₹{balance:.2f}")
+    print(f"Balance : ₹{balance:.2f}")
 
 
 def transaction_history(
