@@ -1,0 +1,112 @@
+[
+    {
+        "bill_id": "B001",
+        "patient_id": "P001",
+        "visit_date": "2026-09-01",
+        "doctor_fee": 500,
+        "lab_fee": 1200,
+        "medicine_fee": 850,
+        "room_charge": 0,
+        "total_bill": 2550
+    },
+    {
+        "bill_id": "B002",
+        "patient_id": "P002",
+        "visit_date": "2026-09-02",
+        "doctor_fee": 700,
+        "lab_fee": 1500,
+        "medicine_fee": 600,
+        "room_charge": 1000,
+        "total_bill": 3800
+    },
+    {
+        "bill_id": "B003",
+        "patient_id": "P003",
+        "visit_date": "2026-09-03",
+        "doctor_fee": 600,
+        "lab_fee": 900,
+        "medicine_fee": 400,
+        "room_charge": 0,
+        "total_bill": 1900
+    },
+    {
+        "bill_id": "B004",
+        "patient_id": "P004",
+        "visit_date": "2026-09-04",
+        "doctor_fee": 500,
+        "lab_fee": 2000,
+        "medicine_fee": 750,
+        "room_charge": 1500,
+        "total_bill": 4750
+    },
+    {
+        "bill_id": "B005",
+        "patient_id": "P005",
+        "visit_date": "2026-09-05",
+        "doctor_fee": 400,
+        "lab_fee": 800,
+        "medicine_fee": 350,
+        "room_charge": 0,
+        "total_bill": 1550
+    },
+    {
+        "bill_id": "B006",
+        "patient_id": "P006",
+        "visit_date": "2026-09-06",
+        "doctor_fee": 650,
+        "lab_fee": 1300,
+        "medicine_fee": 500,
+        "room_charge": 1000,
+        "total_bill": 3450
+    },
+    {
+        "bill_id": "B007",
+        "patient_id": "P007",
+        "visit_date": "2026-09-07",
+        "doctor_fee": 800,
+        "lab_fee": 2500,
+        "medicine_fee": 1200,
+        "room_charge": 2000,
+        "total_bill": 6500
+    },
+    {
+        "bill_id": "B008",
+        "patient_id": "P008",
+        "visit_date": "2026-09-08",
+        "doctor_fee": 500,
+        "lab_fee": 1100,
+        "medicine_fee": 700,
+        "room_charge": 0,
+        "total_bill": 2300
+    },
+    {
+        "bill_id": "B009",
+        "patient_id": "P009",
+        "visit_date": "2026-09-09",
+        "doctor_fee": 900,
+        "lab_fee": 1800,
+        "medicine_fee": 950,
+        "room_charge": 2500,
+        "total_bill": 6150
+    },
+    {
+        "bill_id": "B010",
+        "patient_id": "P010",
+        "visit_date": "2026-09-10",
+        "doctor_fee": 550,
+        "lab_fee": 1000,
+        "medicine_fee": 450,
+        "room_charge": 0,
+        "total_bill": 2000
+    },
+    {
+        "bill_id": "B011",
+        "patient_id": "P001",
+        "visit_date": "2026-9-25",
+        "doctor_fee": 400.0,
+        "lab_fee": 1200.0,
+        "medicine_fee": 2000.0,
+        "room_charge": 0.0,
+        "total_bill": 3600.0
+    }
+]

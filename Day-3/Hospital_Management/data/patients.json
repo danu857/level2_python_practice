@@ -1,0 +1,92 @@
+[
+    {
+        "patient_id": "P001",
+        "name": "Arun Kumar",
+        "age": 35,
+        "gender": "Male",
+        "blood_group": "B+",
+        "phone": "9876543210",
+        "city": "Coimbatore"
+    },
+    {
+        "patient_id": "P002",
+        "name": "Priya Sharma",
+        "age": 28,
+        "gender": "Female",
+        "blood_group": "O+",
+        "phone": "9876543211",
+        "city": "Chennai"
+    },
+    {
+        "patient_id": "P003",
+        "name": "Rahul Verma",
+        "age": 42,
+        "gender": "Male",
+        "blood_group": "A+",
+        "phone": "9876543212",
+        "city": "Bangalore"
+    },
+    {
+        "patient_id": "P004",
+        "name": "Sneha Reddy",
+        "age": 31,
+        "gender": "Female",
+        "blood_group": "AB+",
+        "phone": "9876543213",
+        "city": "Hyderabad"
+    },
+    {
+        "patient_id": "P005",
+        "name": "Karthik Raj",
+        "age": 25,
+        "gender": "Male",
+        "blood_group": "O-",
+        "phone": "9876543214",
+        "city": "Madurai"
+    },
+    {
+        "patient_id": "P006",
+        "name": "Divya Nair",
+        "age": 37,
+        "gender": "Female",
+        "blood_group": "A-",
+        "phone": "9876543215",
+        "city": "Kochi"
+    },
+    {
+        "patient_id": "P007",
+        "name": "Vikram Singh",
+        "age": 46,
+        "gender": "Male",
+        "blood_group": "B-",
+        "phone": "9876543216",
+        "city": "Delhi"
+    },
+    {
+        "patient_id": "P008",
+        "name": "Meera Joshi",
+        "age": 29,
+        "gender": "Female",
+        "blood_group": "O+",
+        "phone": "9876543217",
+        "city": "Pune"
+    },
+    {
+        "patient_id": "P009",
+        "name": "Ajay Patel",
+        "age": 51,
+        "gender": "Male",
+        "blood_group": "AB-",
+        "phone": "9876543218",
+        "city": "Ahmedabad"
+    },
+    {
+        "patient_id": "P010",
+        "name": "Anitha Devi",
+        "age": 33,
+        "gender": "Female",
+        "blood_group": "B+",
+        "phone": "9876543219",
+        "city": "Coimbatore"
+    }
+]
